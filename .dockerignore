@@ -1,0 +1,30 @@
+.git/
+.git*
+.coverage/
+kube/
+kube/*
+.vs/
+.vs/*
+.vscode/
+.vscode/*
+PULL_REQUEST_TEMPLATE.md
+Jenkinsfile
+.gitattributes
+.gitignore
+.eslintignore
+.eslintrc.json
+Dockerfile.compose
+ecosystem.yml
+gitversion.yml
+*.seed
+
+yarn-error.log
+
+# May need to ignore this at some point.
+# yarn.lock
+
+!node_modules
+!node_modules/**
+client
+!client/build
+!client/build/**
