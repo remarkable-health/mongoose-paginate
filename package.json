@@ -39,8 +39,8 @@
     "mongoose": "5.2.5"
   },
   "devDependencies": {
-    "chai": "3.4.1",
-    "mocha": "2.3.4"
+    "chai": "4.1.2",
+    "mocha": "5.2.0"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/*.js -R spec --ui bdd --timeout 5000"
