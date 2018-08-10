@@ -40,7 +40,7 @@ function paginate(query, options, callback) {
     skip = offset;
   }
 
-  promises.push(this.count(query).exec());
+  promises.push(this.countDocuments(query).exec());
 
   if (limit > 0) {
     let docsQuery = this.find(query)
