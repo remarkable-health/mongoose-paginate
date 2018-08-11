@@ -31,7 +31,7 @@ let Book = mongoose.model('Book', BookSchema);
 describe('mongoose-paginate', function () {
 
   before(function (done) {
-    mongoose.connect(MONGO_URI, done);
+    mongoose.connect(MONGO_URI, {useNewUrlParser: true}, done);
   });
 
   before(function (done) {
